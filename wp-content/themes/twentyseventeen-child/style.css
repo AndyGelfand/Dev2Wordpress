@@ -10,6 +10,7 @@
  Text Domain:  twentyseventeen-child
 */
 @import url('../twentyseventeen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Ranga&display=swap');
 
 .site-content-contain {
     background-color: #98e2e2;

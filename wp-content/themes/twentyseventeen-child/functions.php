@@ -11,3 +11,8 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+function wpb_add_google_fonts() {
+	wp_enqueue_style( 'wpb-google-fonts', 'href="https://fonts.googleapis.com/css?family=Raleway|Ranga&display=swap', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
