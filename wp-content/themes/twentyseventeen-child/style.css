@@ -19,7 +19,12 @@
 	width: 100%;
 }
 
-
+body.has-header-image .site-description, body.has-header-video .site-description {
+    color: #fff;
+    font-family: 'Ranga', cursive;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
 
 body, button, input, select, textarea {
     color: #333;
